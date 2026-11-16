@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hndj.co.kr/sitemap.xml
