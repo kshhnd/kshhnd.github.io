@@ -621,3 +621,6 @@ a.core-add:hover { background: #22262E; }
 .head-contact .wrap::after { background-image: url("../images/head-contact.webp"); }
 .head-art .wrap { z-index: auto; isolation: isolate; }
 @media (max-width: 900px) { .head-art .wrap::after { display: none; } .head-art .wrap > p { max-width: none; } }
+
+/* portfolio filter: hidden 속성이 display:grid에 덮이지 않도록 */
+.case[hidden] { display: none !important; }
